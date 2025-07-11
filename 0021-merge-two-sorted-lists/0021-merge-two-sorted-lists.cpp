@@ -40,16 +40,16 @@ public:
               list2=list2->next;
           }
            ListNode* merge = new ListNode(val);
+            merge->next=nullptr;
           if(head!=nullptr)
           {
-          merge->next=nullptr;
-           connect->next= merge;
+          connect->next= merge;
           connect=merge;
           }
         else
           {
             head=merge;
-             connect=merge;
+            connect=merge;
           }
          
           
