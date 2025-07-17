@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0066-plus-one) |
 | [0204-count-primes](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0204-count-primes) |
+| [1603-running-sum-of-1d-array](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/1603-running-sum-of-1d-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -76,4 +77,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0053-maximum-subarray) |
+## Prefix Sum
+|  |
+| ------- |
+| [1603-running-sum-of-1d-array](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
