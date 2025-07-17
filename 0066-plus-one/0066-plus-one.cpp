@@ -26,9 +26,9 @@ public:
      {
          vector<int>digits2(size + 2);
          digits2[0] = 1;
-         for (int i = 0; i <= size; i++)
+         for (int i = 1; i <= size+1; i++)
          {
-             digits2[i + 1] = digits[i];
+             digits2[i] = 0;
          }
          
          return digits2;
