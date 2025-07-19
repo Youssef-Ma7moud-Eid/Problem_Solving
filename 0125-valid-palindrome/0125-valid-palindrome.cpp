@@ -11,7 +11,7 @@ public:
          }
          if((int(s[i])>= 97 && int(s[i]) <=122)||(int(s[i])>= 48 && int(s[i]) <= 57))
          {
-            ss.push_back(s[i]);
+           ss+=s[i];
          }
       }
       for(int i=0;i<ss.size()/2;i++)
