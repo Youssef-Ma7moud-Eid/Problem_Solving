@@ -17,10 +17,7 @@ public:
                 flag=true;
             }
         }
-        if(sum2>0)
-        {
-            sum1=sum2;
-        }
+         sum1 = sum2 > 0 ? sum2:sum1;
         return sum1;
     }
 };
