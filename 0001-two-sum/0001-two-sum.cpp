@@ -9,6 +9,7 @@ public:
             {
                 array[0]=i;
                 array[1]=map[target-nums[i]]-1;
+                break;
             }
             map[nums[i]]=i+1;
 
