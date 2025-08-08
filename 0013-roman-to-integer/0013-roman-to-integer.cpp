@@ -1,32 +1,25 @@
 class Solution {
 public:
     int romanToInt(string s) {
-        int sum=0;
-        map<char,int>m; 
-         m['I']=1;
-         m['V']=5;
-          m['X']=10;
-           m['L']=50; m['C']=100; m['D']=500; m['M']=1000;
-        
-      if(s.size()==1)
-      {
-        return m[s[0]];
-      }
-     
-      sum+=m[s[0]];
-        for(int i=1;i<s.size();i++)
-        {
-         if(m[s[i]]>m[s[i-1]])
+        map<char,int>map; 
+        map['I']=1;
+         map['V']=5;
+          map['X']=10;
+           map['L']=50; map['C']=100; map['D']=500; map['M']=1000;
+
+    int count = map[s[0]];
+
+    for(int i=1;i<s.size();i++)
+    {
+         if(map[s[i]]>map[s[i-1]])
          {
-            sum-=m[s[i-1]];
-          sum+=(m[s[i]]-m[s[i-1]]);
+            count-=map[s[i-1]];
+            count+=(map[s[i]]-map[s[i-1]]);
          }
          else{
-            sum+=m[s[i]];
-           
+              count+=map[s[i]];
          }
-        }
-       
-        return sum;
+    }
+        return count;
     }
 };
