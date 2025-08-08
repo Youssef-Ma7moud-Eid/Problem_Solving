@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0204-count-primes](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0217-contains-duplicate) |
+| [0283-move-zeroes](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0283-move-zeroes) |
 | [1603-running-sum-of-1d-array](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/1603-running-sum-of-1d-array) |
 | [2058-concatenation-of-array](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/2058-concatenation-of-array) |
 ## Two Pointers
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0125-valid-palindrome) |
+| [0283-move-zeroes](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Youssef-Ma7moud-Eid/Problem_Solving/tree/master/0344-reverse-string) |
 ## Sorting
 |  |
