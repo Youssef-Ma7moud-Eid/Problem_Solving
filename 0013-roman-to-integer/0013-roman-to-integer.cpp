@@ -9,7 +9,7 @@ public:
 
     int count = map[s[0]];
 
-    for(int i=1;i<s.size();i++)
+    for(int i=1;i<s.size();++i)
     {
          if(map[s[i]]>map[s[i-1]])
          {
